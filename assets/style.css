@@ -434,3 +434,20 @@ hr {
 	background-color: #ccc;
 	margin: 1rem 0;
 }
+.avaliacoes {
+	display: flex;
+	& .container-avaliacoes {
+		display: flex;
+		flex-direction: column;
+		padding: 2rem;
+		gap: 1rem;
+		width: 45%;
+		& .item {
+			display: flex;
+			gap: 1rem;
+		}
+		& .avaliacao {
+			display: flex;
+		}
+	}
+}
